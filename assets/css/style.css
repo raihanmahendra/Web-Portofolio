@@ -8,7 +8,7 @@
 .btn_cv {
   padding: 0px 42px;
   line-height: 50px;
-  background-image: linear-gradient(to right, #134547 0%, #1890b8 48%, #020f16 100%);
+  background-image: linear-gradient(to right, #7fab06 0%, #7fab06 48%, #7fab06 100%);
   background-size: 200% auto;
   color: #fff;
   display: inline-block;
@@ -17,6 +17,17 @@
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   transition: all 300ms linear 0s;
+}
+
+.imgprofile {
+  width: 350px;
+  height: 450px;
+  border:2px solid #fff;
+  background: url(../img/profile-img-removebg-preview.png) no-repeat;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 
 /*--------------------------------------------------------------
@@ -28,7 +39,7 @@ body {
 }
 
 a {
-  color: #7fab06;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -298,7 +309,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
+  background: url("../img/christopher-gower-m_HRfLhgABo-unsplash.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
